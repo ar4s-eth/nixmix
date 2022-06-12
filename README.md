@@ -1,8 +1,11 @@
 # Nix System Configuration
-*For running on systems an M1 with no certs yet (no git commits etc.), run the following commands after initial install:*
+*For running on fresh M1 installs/systems with no certs yet (no git commits etc.), run the following commands after initial install:*
 
-`echo "pinentry-program /opt/homebrew/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf`
-
+nix-env i- gh
+nix-env -i pinentry
+gpgconf --kill gpg-agent   
+gpg --gen-key
+nix-env i- fennel
 
 *For building packages from scratch:
 ![install steam on pinephone](https://discourse.nixos.org/t/how-to-install-steam-x86-64-on-a-pinephone-aarch64/19297/2)
