@@ -31,7 +31,7 @@ jobs:
       - name: Update and commit lockfile
         run: nix flake update --commit-lock-file
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         with:
           github_token: ${{ secrets.REPO_ACCESS_TOKEN }}
           branch: flakebot
@@ -41,7 +41,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_ACCESS_TOKEN }}
           PULL_REQUEST_FROM_BRANCH: 'flakebot'
-          PULL_REQUEST_BRANCH: 'master'
+          PULL_REQUEST_BRANCH: 'main'
           MAINTAINER_CANT_MODIFY: true
           PASS_IF_EXISTS: true
           PASS_ON_ERROR: true
