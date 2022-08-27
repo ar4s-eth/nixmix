@@ -231,6 +231,7 @@
         "nixos-unstable": "nixos-unstable",
         "nixpkgs": "nixpkgs_2",
         "small": "small",
+        "spacehammer": "spacehammer",
         "stable": "stable"
       }
     },
@@ -247,6 +248,22 @@
         "owner": "nixos",
         "ref": "nixos-unstable-small",
         "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "spacehammer": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651883453,
+        "narHash": "sha256-6r7uzC3CkxWSpJ/iAL9V0KaQuNyxX8z9w7ICMmibPtI=",
+        "owner": "agzam",
+        "repo": "spacehammer",
+        "rev": "1a0526c4896cad78c840035f64880ab5ee5016b7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "agzam",
+        "repo": "spacehammer",
         "type": "github"
       }
     },
