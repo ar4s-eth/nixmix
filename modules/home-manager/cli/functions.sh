@@ -31,11 +31,10 @@ function mkvenv() {
 function cjdfunction() { 
 	pushd ~/*/*/${1}* # ~/Dropbox is my root folder, change to suit yours.
 }
-
-# export cjdfunction
-
-# alias cjd='cjdfunction' # Or any other alias you prefer.
-}
+# 
+export cjdfunction
+# 
+alias cjd='cjdfunction' # Or any other alias you prefer.
 function weather() {
     curl wttr.in/$1
 }
