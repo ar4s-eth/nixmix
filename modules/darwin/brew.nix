@@ -21,7 +21,6 @@
       "homebrew/services"
       "koekeishiya/formulae"
       "teamookla/speedtest"
-      "agzam/spacehammer"
     ];
     casks = [
       "hammerspoon"

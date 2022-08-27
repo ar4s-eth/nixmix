@@ -39,6 +39,10 @@
       url = "github:ar4s-eth/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    spacehammer = {
+      url = "github:agzam/spacehammer";
+      flake = false;
+    };
   };
 
   outputs = inputs@{ self, nixpkgs, darwin, home-manager, flake-utils, ... }:

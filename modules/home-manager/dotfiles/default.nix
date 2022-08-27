@@ -5,6 +5,11 @@
       target = ".hammerspoon";
       recursive = true;
     };
+    spacehammer = {
+      source = ./.spacehammer;
+      target = ".spacehammer";
+      recursive = true;
+    };
     raycast = lib.mkIf pkgs.stdenvNoCC.isDarwin {
       source = ./raycast;
       target = ".local/bin/raycast";

@@ -24,7 +24,6 @@
     ];
     casks = [
       "hammerspoon"
-      "spacehammer"
       "1password-cli"
       "1password"
       "protonmail-bridge"
