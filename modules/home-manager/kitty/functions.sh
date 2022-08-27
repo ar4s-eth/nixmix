@@ -34,7 +34,7 @@ function cjdfunction() {
 
 # export cjdfunction
 
-# alias cjd='cjdfunction' # Or any other alias you prefer.
+alias cjd='cjdfunction' # Or any other alias you prefer.
 }
 function weather() {
     curl wttr.in/$1
